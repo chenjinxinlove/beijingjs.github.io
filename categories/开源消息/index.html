@@ -6,7 +6,7 @@
   <title>开源消息 | 北京前端交流群 - 578874693</title>
   <meta name="author" content="豪情">
   
-  <meta name="description" content="北京前端交流群是成都地区浏览量最大的中文前端门户网站，是由成都前端从业人员发起，为成都数以万计的互联网用户提供富有创意的前端新生活。">
+  <meta name="description" content="北京前端交流群是北京地区浏览量最大的中文前端门户网站，是由北京前端从业人员发起，为北京数以万计的互联网用户提供富有创意的前端新生活。">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -58,32 +58,20 @@
 		<ul class="nav navbar-nav">
 		  
 		  <li>
-			<a href="/tags/热点文章/" title="All the tags.">
-			  <i class="fa fa-fire"></i>热点文章
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/tags/博主推荐/" title="All the tags.">
-			  <i class="fa fa-volume-up"></i>博主推荐
+			<a href="/" title="All the tags.">
+			  <i class="fa fa-fire"></i>首页
 			</a>
 		  </li>
 		  
 		  <li>
 			<a href="/archives" title="All the articles.">
-			  <i class="fa fa-archive"></i>文章归档
+			  <i class="fa fa-archive"></i>文章
 			</a>
 		  </li>
 		  
 		  <li>
-			<a href="/message" title="All the tags.">
-			  <i class="fa fa-pencil"></i>给我留言
-			</a>
-		  </li>
-		  
-		  <li>
-			<a href="/about" title="About me.">
-			  <i class="fa fa-info-circle"></i>关于本站
+			<a href="/hero" title="heroes">
+			  <i class="fa fa-crosshairs"></i>英雄榜
 			</a>
 		  </li>
 		  
@@ -109,7 +97,6 @@
   
   <div class="col-md-9">
 	
-
 	  <div id="top_search"></div>
 
 	  <div class="archive">
@@ -127,7 +114,7 @@
 		
 		   <span class="title"><a href="/2017/02/17/welcome-2017/" >2017-我们来了</a></span>
 		
-		</li>			
+		</li>
 		
 		</ul>
 		</div>
@@ -139,11 +126,12 @@
 	<div id="sidebar">
 		
 				
-  <div class="form-group has-success has-feedback" id="site_search">
-    <form class="site-search-form">
-        <input type="text" id="st-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control" />
-    </form>
-  </div>  
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
 
 			
 				<style type="text/css">
@@ -249,21 +237,9 @@
 	<h4 style="font-weight: bold; color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif">友情链接</h4>
 	<ul class="blogroll list-unstyled">
 	
-		<li style="font-size:14px"><i class="fa fa-share"></i><a href="http://hexo.io" title="My Linkin account." target="_blank"]);">Hexo</a></li>
+		<li style="font-size:14px"><i class="fa fa-github"></i><a href="http://www.github.com/beijingjs" title="My Github account." target="_blank"]);">属于北京前端的github</a></li>
 	
-		<li style="font-size:14px"><i class="fa fa-github"></i><a href="http://www.github.com/rudy-yuan" title="My Github account." target="_blank"]);">我的github</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-trash"></i><a href="http://yjiehn.sinaapp.com" title="My Linkin account." target="_blank"]);">我的旧版博客</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-cloud-upload"></i><a href="http://www.qiniu.com" title="My Weibo account." target="_blank"]);">七牛云存储</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-chain"></i><a href="http://netlab.pkusz.edu.cn" title="My Weibo account." target="_blank"]);">北大互联网信息工程研发中心</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-chain"></i><a href="http://cs.whu.edu.cn" title="My Weibo account." target="_blank"]);">武汉大学 计算机学院</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-chain"></i><a href="http://github.com/wzpan/hexo-theme-freemind" title="My Weibo account." target="_blank"]);">Hexo-Theme-Freemind</a></li>
-	
-		<li style="font-size:14px"><i class="fa fa-chain"></i><a href="http://www.wengweitao.com" title="My Weibo account." target="_blank"]);">WWT的博客</a></li>
+		<li style="font-size:14px"><i class="fa fa-share"></i><a href="http://jsfront.org" title="中国最大前端联盟组织." target="_blank"]);">联盟群</a></li>
 	
 	</ul>
 </div>
@@ -275,7 +251,7 @@
 	<ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="0" data-show-admin="1" data-excerpt-length="100" ></ul>
 	
 	<script type="text/javascript">
-	    var duoshuoQuery = { short_name: 'rudy-yuan' };
+	    var duoshuoQuery = { short_name: 'beijingjs' };
 	    (function() {
 	    var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -294,7 +270,7 @@
 	<h4 style="font-weight: bold; color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif">最近访客</h4>
   	<div class="panelbody clearfix"><ul class="ds-recent-visitors" data-num-items="30"></ul></div>
 </section>
-			  
+			
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
 
@@ -313,15 +289,6 @@
 </p> </footer>
 </div> <!-- container-narrow -->
   
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'YYG5W2xNQTns7U8J3YqW','2.0.0');
-  </script>
-
 
 
   
